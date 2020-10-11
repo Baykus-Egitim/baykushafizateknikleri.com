@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^ https://baykushafizateknikleri.com%{REQUEST_URI} [NS,R,L]
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteRule ^iletisim/? iletisim.php [NC,L]
+RewriteRule ^hakkimizda/? hakkimizda.php [NC,L]
+RewriteRule ^arama/? arama.php [NC,L]
+RewriteRule ^blog/? blog.php [NC,L]
+RewriteRule ^anasayfa/? index.php [NC,L]
+
+
+RewriteRule ^kullanicisozlesmesi/? kullanici.php [NC,L]
+RewriteRule ^gizliliksozlesmesi/? gizli.php [NC,L]
+RewriteRule ^iadesozlesmesi/? iade.php [NC,L]
+
+RewriteRule ^bd-([0-9a-zA-Z-_]+)-([0-9]+)$  blogdetay.php?seo=$1&id=$2 [L,QSA]

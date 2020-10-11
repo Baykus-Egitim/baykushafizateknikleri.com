@@ -1,0 +1,602 @@
+/*
+* Crook -Responsive One Page Parallax Template For landing, agency, portfolio, webStudio
+* Build Date: apr 2020
+* Author: creative minds
+* Copyright (C) 2020 creative minds
+* dark theme
+*/
+/* ------------------------------------- */
+/* *. main files .......................... */
+/* ------------------------------------- */
+
+body {
+    color: #ababab;
+    background: #131313;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color:  #ffffff;
+}
+
+pre {
+    background-color:  #1b1a1a;
+}
+
+table tbody tr, table thead tr {
+    border: 1px solid  #1b1a1a;
+}
+
+table tbody th {
+    border-right: 1px solid  #1b1a1a;
+}
+
+.bg-gray {
+    background-color: #131313 !important;
+}
+
+.bg-light {
+    background-color: #1b1a1a !important;
+}
+
+
+.color-light {
+    color: #1b1a1a !important;
+}
+
+.color-light svg {
+    fill: #1b1a1a !important;
+}
+
+.brand_item_2 {
+    background-color: #1b1a1a;
+}
+.list-icon li {
+    color: #ffffff;
+}
+/* ------------------------------------- */
+/* *. section Title .......................... */
+/* ------------------------------------- */
+
+.section-title .sub-title {
+    color: #e9204f;
+}
+
+
+.section-title .big-title {
+    color: #ffffff;
+}
+
+
+
+/* ------------------------------------- */
+/* *. Icon Box .......................... */
+/* ------------------------------------- */
+
+
+.icon-box-one .icon {
+    color: #e9204f;
+}
+
+.icon-box-one .icon svg, .icon-box-one .icon svg * {
+    fill: #e9204f;
+}
+
+
+
+.icon-box-one:hover .icon {
+    color:#1b1a1a;
+}
+
+.icon-box-one:hover .icon svg, .icon-box-one:hover .icon svg * {
+    fill:#1b1a1a;
+;
+}
+
+.icon-box-two {
+    background-color: #1b1a1a;
+    border: solid 1px #131313;
+    color: #ffffff;
+}
+
+.icon-box-two .icon {
+    color: #e9204f;
+}
+
+.icon-box-two .icon svg, .icon-box-two .icon svg * {
+    fill: #e9204f;
+}
+
+.icon-box-two .title {
+    color: #ffffff;
+}
+
+.icon-box-two:hover {
+    background-color: #ffffff;
+    border: solid 1px #ffffff;
+    color: #1b1a1a;
+
+}
+.icon-box-two:hover .icon {
+    color: #e9204f;
+}
+
+.icon-box-two:hover .icon svg, .icon-box-two:hover .icon svg * {
+    fill: #e9204f;
+}
+
+.icon-box-two:hover .title {
+    color: #1b1a1a;
+}
+
+.icon-box-three {
+    background-color: #1b1a1a;
+}
+
+.icon-box-three .icon svg, .icon-box-three .icon svg * {
+    fill: #e9204f;
+}
+
+.icon-box-three .font-icon {
+    color: #e9204f;
+}
+
+.icon-box-three .content .title {
+    color: #ffffff;
+}
+
+.icon-box-three .content .link {
+    color: #ffffff !important;
+    stroke: #ffffff;
+}
+
+.icon-box-three .content .link:hover {
+    color: #e9204f !important;
+}
+
+.icon-box-three .content .link:hover:after {
+    background-color: #e9204f;
+}
+
+.icon-box-four .icon {
+    background-color: #e9204f;
+    color: #1b1a1a;
+}
+
+.icon-box-four .icon svg {
+    fill: #ffffff;
+}
+
+.icon-box-four .icon svg * {
+    fill: #ffffff;
+}
+
+
+.icon-box-four .content .title {
+    color: #ffffff;
+}
+
+.icon-box-four .content .link {
+    color: #ffffff !important;
+}
+
+.icon-box-four .content .link:after {
+    background-color: #ffffff;
+}
+
+.icon-box-four .content .link:hover {
+    color: #e9204f !important;
+}
+
+.icon-box-four .content .link:hover:after {
+    background-color: #e9204f;
+}
+
+.icon-box-four:hover i {
+    color: #e9204f;
+    background-color: #1b1a1a;
+}
+
+.icon-box-four:hover .icon {
+    color: #e9204f;
+    background-color: #1b1a1a;
+}
+
+.icon-box-four:hover .icon svg {
+    fill: #e9204f;
+}
+
+.icon-box-four:hover .icon svg * {
+    fill: #e9204f;
+}
+
+/* ------------------------------------- */
+/* *. Counter Box .......................... */
+/* ------------------------------------- */
+
+.counter-box-one .icon {
+    color: #e9204f;
+}
+
+
+.counter-box-one .icon svg {
+    fill: #e9204f;
+}
+
+.counter-box-one .number {
+    color: #ffffff;
+}
+
+.counter-box-one .title {
+    color: #ffffff;
+}
+
+
+
+.counter-box-two {
+    background-color: #1b1a1a;
+}
+
+.counter-box-two .icon {
+    color: #e9204f;
+}
+.counter-box-two .icon svg {
+    fill: #e9204f;
+}
+
+.counter-box-two .number {
+    color: #ffffff;
+}
+
+.counter-box-two .title {
+    color: #ffffff;
+}
+
+/* ------------------------------------- */
+/* *. Progress Bar .......................... */
+/* ------------------------------------- */
+
+.progress-container .progress-data {
+    color: #ffffff;
+}
+
+.progress-container .progress-data .progress-title {
+    color: #ffffff;
+}
+
+
+
+
+.progress-container .progress .progress-bar {
+    background-color: #e9204f;
+}
+
+.progress-container .progress .progress-bar:after {
+    background-color: rgba(233, 32, 79, 0.2);
+}
+
+.progress-container .progress .progress-bar:before {
+    background-color: #e9204f;
+}
+
+.progress-container .progress .progress-bar.color-light {
+    background-color: #1b1a1a;
+}
+
+.progress-container .progress .progress-bar.color-light:after {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.progress-container .progress .progress-bar.color-light:before {
+    background-color: #1b1a1a;
+}
+
+.progress-container .progress .progress-bar.color-dark {
+    background-color: #ffffff;
+}
+
+.progress-container .progress .progress-bar.color-dark:after {
+    background-color: rgba(27, 26, 26, 0.2);
+}
+
+.progress-container .progress .progress-bar.color-dark:before {
+    background-color: #ffffff;
+}
+
+.progress-container .progress.md {
+    height: 5px;
+}
+
+.progress-container .progress.lg {
+    height: 8px;
+}
+
+.progress-container .progress.color-light {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+/*  ------------------------------
+/* *.PRICING SECTION .......................... */
+/*-------------------------------------- */
+.price-box {
+    background-color: #1b1a1a;
+    border: 1px solid #131313;
+}
+
+.price-box .price-box-header {
+    border-bottom: 1px solid #131313;
+}
+
+.price-box .price-box-header .icon {
+    color: #ffffff;
+}
+
+.price-box .price-box-header .price-name {
+    color: #ffffff;
+}
+
+.price-box .price-box-header .price-for {
+    color: #e9204f;
+}
+.price-box .price-box-header .price-val {
+    color: #ffffff;
+}
+
+.price-box .price-box-content ul li {
+    color: #ffffff;
+}
+
+
+.price-box .price-box-content ul li i {
+    color: #e9204f;
+}
+
+.price-box .price-box-content ul li i.icon-right {
+    color: #29cf8a;
+}
+
+.price-box .price-box-content ul li i.icon-del {
+    color: #F55767;
+}
+
+
+.price-box.featured .featured-mark {
+    background-color: #e9204f;
+    color: #ffffff;
+}
+
+/* ------------------------------------- */
+/* *. Portfolio  .......................... */
+/* ------------------------------------- */
+.portfolio-box {
+    background-color: #131313;
+}
+.portfolio-box .portfolio-inner .portfolio-info {
+    background-color: #1b1a1a;
+}
+
+.portfolio-box .portfolio-inner .portfolio-info .category {
+    color: #e9204f;
+}
+
+.portfolio-categories li {
+    color: #ffffff;
+}
+
+.portfolio-categories li.active {
+    color: #e9204f;
+}
+
+
+/* ------------------------------------- */
+/* *. Tesimonial  .......................... */
+/* ------------------------------------- */
+
+.testimonial-box .testimonial-text {
+    color: #ffffff;
+}
+
+.testimonial-box .testimonial-text:before {
+    color: #e9204f;
+}
+
+.testimonial-box .testimonial-position {
+    color: #e9204f;
+}
+
+.testimonial-two.owl-carousel .owl-dot.active span {
+    background-color: #e9204f !important;
+}
+
+.testimonial-two.owl-carousel .owl-dot span {
+    background-color: rgb(255, 247, 247) !important;
+    margin: 1px 1px;
+}
+
+
+.testimonial-box-two .icon {
+    color: #e9204f;
+}
+
+.testimonial-box-two .t-content p {
+    color: #ffffff;
+}
+
+.testimonial-box-two .t-info .t-job {
+    color: #ffffff;
+
+}
+
+/* ------------------------------------- */
+/* *. Team Box  .......................... */
+/* ------------------------------------- */
+
+.team_box .team_box_content {
+    background-color: #1b1a1a;
+}
+
+.team_box .team_box_content h5 {
+    color: #ffffff;
+}
+
+.team_box .team_box_content h6 {
+    color: #e9204f;
+}
+
+.team_box .team_box_content ul.team_social {
+    color: #ffffff;
+}
+
+.team_box .team_box_content ul.team_social li a {
+    color: #ffffff;
+}
+
+.team_box .team_box_content ul.team_social li a:hover {
+    color: #e9204f;
+}
+
+/* ------------------------------------- */
+/* *. Blog Box  .......................... */
+/* ------------------------------------- */
+.blog-post-one .info-post {
+    background-color: #1b1a1a;
+}
+
+.blog-post-one .info-post .cat-name {
+    color: #ffffff;
+    background-color: #e9204f;
+}
+
+.blog-post-one .info-post .post-title:hover {
+    color: #e9204f;
+}
+.blog-post-one .info-post .meta-post li i {
+    color: #e9204f;
+}
+
+.blog-post-one .info-post .arrow-btn {
+    stroke: #ffffff;
+
+}
+
+
+
+/* ------------------------------------- */
+/* *. Forms  .......................... */
+/* ------------------------------------- */
+
+.form-control {
+    border: solid 1px #1b1a1a;
+}
+
+.form-control:hover, .form-control:focus {
+    border-color: #ffffff;
+}
+
+.input-group .form-control {
+    border: solid 1px #1b1a1a;
+}
+
+.map-float {
+    background-color: #1b1a1a;
+}
+
+.contact-img-box {
+    background-color: #1b1a1a;
+}
+
+
+
+/* ------------------------------------- */
+/* *. Img BoX  .......................... */
+/* ------------------------------------- */
+.img-box-one .info-post {
+    background-color: #1b1a1a;
+}
+
+.img-box-one .info-post .cat-name {
+    background-color: #e9204f;
+}
+
+.img-box-one .info-post .post-title:hover {
+    color: #e9204f;
+}
+.img-box-one .info-post .meta-post li i {
+    color: #e9204f;
+}
+
+.img-box-one .info-post .arrow-btn {
+    stroke: #ffffff;
+}
+
+.img-box-two .info-post {
+    background-color: #1b1a1a;
+}
+
+.img-box-two .info-post .icon {
+    color: #1b1a1a;
+    background-color: #1b1a1a;
+}
+
+.img-box-two .info-post .icon svg, .img-box-two .info-post .icon svg * {
+    fill: #e9204f;
+}
+
+.img-box-two .info-post .post-title:hover {
+    color: #e9204f;
+}
+
+.img-box-two .info-post .meta-post li i {
+    color: #e9204f;
+}
+
+.img-box-two .info-post .arrow-btn {
+    stroke: #1b1a1a;
+}
+
+
+/* ------------------------------------- */
+/* *. faq  .......................... */
+/* ------------------------------------- */
+.accordion-item .accordion-title {
+    border: 1px solid #1b1a1a;
+}
+
+.accordion-item .accordion-title:before {
+    color: #ffffff;
+    border-right: 1px solid #1b1a1a;
+}
+
+.accordion-item .accordion-title.active:before {
+    color: #e9204f;
+}
+
+.accordion-item-two .accordion-title {
+    border: 1px solid #e9204f;
+}
+
+.accordion-item-two .accordion-title:before {
+    color: #ffffff;
+    border-right: 1px solid #e9204f;
+}
+
+
+.accordion-item-two .accordion-title.active:before {
+    color: #e9204f;
+}
+
+.accordion-item-two .accordion-content {
+    border: 1px solid #e9204f;
+}
+
+
+.form-control {
+    color: #ffffff;
+    background-color: #131313;
+    border: 1px solid #131313;
+}
+.form-control:focus {
+    color: #ffffff;
+    background-color: #131313;
+    border: 1px solid #131313;
+}
