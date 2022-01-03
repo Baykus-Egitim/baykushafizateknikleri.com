@@ -515,15 +515,6 @@
 
 
       <div class="row text-center justify-content-center">
-
-
-        
-
-
-
-
-
-
         <div class="col-12 col-sm-10 col-md-6">
           <div class="price-box fadeInLeft featured  wow  animated" data-wow-delay=".1s">
             <div class="price-box-header">
@@ -549,10 +540,11 @@
               </ul>
             </div>
             <div class="price-footer">
-              <!-- <a href="#" class="btn btn-dark nav-link col-lg-12" style="background-color:#2AA747; margin-bottom:8px;">DEMO KULLAN <span></span></a> -->
+              <div id="tryBHOButton" class="btn btn-warning w-100 mb-2" style="background-color: #ffc107; border-color: #ffc107; line-height: 15px; font-weight: 400;">HIZLI OKUMA PROGRAMI DEMO İNCELE</i></div>
+              <div id="tryBHTButton" class="btn btn-success w-100 mb-2" style="background-color: #28a745; border-color: #28a745; line-height: 15px; font-weight: 400;">HAFIZA TEKNİKLERİ PROGRAMI DEMO İNCELE</i></div>
 
               <a href="https://baykushizliokuma.com/#pricing" class="btn btn-dark col-lg-12"
-                style="background-color:#FFC70B;color:#8F409F; float:left;">SATIN AL ve ŞİFRE OLUŞTUR
+                style="background-color:#8f3e9f;color:#FFC70B; float:left;">SATIN AL
                 <span></span></a>
             </div>
           </div>
@@ -902,11 +894,9 @@
   <script>
     $("#tryBHOButton").click(() => {
       window.location.href = `https://baykushizliokuma.com/app/login?username=misafir${Date.now()}&password=any#!`
-      console.log("Here")
     })
     $("#tryBHTButton").click(() => {
       window.location.href = `https://app.baykushafizateknikleri.com/login?username=misafir${Date.now()}&password=any#!`
-      console.log("Here")
     })
   </script>
 </body>
